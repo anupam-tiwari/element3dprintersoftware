@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Element</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MatterHackers.Agg.UI" />
+    <Reference Include="AGG" />
+    <Reference Include="MatterHackers.VectorMath" />
+    <Reference Include="System.Core">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.10/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Community.CsharpSqlite" />
+    <Reference Include="RayTracer" />
+    <Reference Include="MatterHackers.PolygonMesh" />
+    <Reference Include="MatterHackers.Localizations" />
+    <Reference Include="MatterHackers.OpenGL.UI" />
+    <Reference Include="GuiAutomation" />
+    <Reference Include="PlatfromAbstract" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="clipper_library" />
+    <Reference Include="PdfSharp" />
+    <Reference Include="Mindscape.Raygun4Net4" />
+    <Reference Include="MatterHackers.MatterControl.Plugins" />
+    <Reference Include="System.IO.Compression">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.10/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="MatterSlice" />
+    <Reference Include="MatterHackers.RenderOpenGl" />
+    <Reference Include="MatterHackers.SerialPortCommunication" />
+    <Reference Include="MatterHackers.Agg.ImageProcessing" />
+    <Reference Include="agg_platform_win32" />
+    <Reference Include="MatterHackers.MarchingSquares" />
+    <Reference Include="Mindscape.Raygun4Net" />
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.10/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.10/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
